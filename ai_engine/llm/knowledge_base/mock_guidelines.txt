@@ -1,0 +1,7 @@
+Sepsis Treatment Guidelines (Mock)
+- Early administration of broad-spectrum antibiotics within 1 hour of recognition is recommended for patients with sepsis or septic shock.
+- For patients with high-risk neutropenic fever, consider adding antifungal coverage if fever persists after 4-7 days of broad-spectrum antibacterial therapy.
+
+Antimicrobial Resistance (AMR) Guidelines (Mock)
+- If VIM, IMP, or NDM metallo-beta-lactamase genes are detected, the isolate is likely resistant to carbapenems. Cefiderocol or aztreonam-avibactam may be considered.
+- Detection of the mecA gene in Staphylococcus aureus indicates Methicillin-Resistant S. aureus (MRSA). Vancomycin or linezolid are preferred agents.

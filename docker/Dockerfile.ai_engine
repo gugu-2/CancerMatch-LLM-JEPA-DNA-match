@@ -1,0 +1,6 @@
+FROM python:3.10-slim
+WORKDIR /app
+COPY ai_engine/requirements.txt .
+RUN pip install -r requirements.txt || true
+COPY ai_engine/ ./ai_engine/
+CMD ["python", "-m", "ai_engine.main"]
