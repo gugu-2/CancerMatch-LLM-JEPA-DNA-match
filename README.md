@@ -8,6 +8,7 @@ PathoMatch is a state-of-the-art bioinformatics platform designed to combat Anti
 
 Instead, PathoMatch employs a **Hybrid Architecture**: It uses a pure, unconstrained mathematical engine (using $O(mn)$ Smith-Waterman arrays and MM/PBSA thermodynamics) to guarantee 100% deterministic DNA matching, and then feeds those proven facts into an LLM via Retrieval-Augmented Generation (RAG) to translate the math into clinical guidelines.
 
+---
 ## The Core Innovations
 
 ### 1. The Mathematical Biological Engine
