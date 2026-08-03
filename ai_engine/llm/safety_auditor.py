@@ -1,7 +1,7 @@
 class SafetyAuditor:
     def __init__(self):
-        # In a real production system, this would be a separate LLM call.
-        # For our mock/scaffold, we simulate the 'LLM-as-a-judge' evaluation logic.
+        # To save VRAM on the RTX 5050 (8GB), we use a deterministic heuristic NLP approach 
+        # instead of loading a second LLM into memory for the judge.
         pass
 
     def evaluate(self, retrieved_context: list, llm_response: str) -> dict:

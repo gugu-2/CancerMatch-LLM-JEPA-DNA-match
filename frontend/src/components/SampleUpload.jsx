@@ -30,11 +30,19 @@ function SampleUpload({ onUploadSuccess }) {
     setLoading(true);
     setLoadingStage('GREPPING');
     
+    // Read the file content if a file is selected
+    let sequenceData = "";
+    if (file) {
+      const text = await file.text();
+      sequenceData = text;
+    }
+
     const payload = {
       species: metadata.species,
       priorAntibiotics: metadata.priorAntibiotics,
       notes: metadata.notes,
       fileName: file ? file.name : null,
+      sequenceData: sequenceData,
       allergies: metadata.allergies,
       renalFunction: metadata.renalFunction,
       hardwareTier: metadata.hardwareTier
