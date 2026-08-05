@@ -5,6 +5,7 @@
 ![AI Engine](https://img.shields.io/badge/LLM-RAG_Audited-blue?style=for-the-badge)
 
 PathoMatch is a state-of-the-art bioinformatics platform designed to combat Antimicrobial Resistance (AMR) across multiple species. It completely abandons the industry trend of relying purely on probabilistic LLMs for biology. 
+---
 
 Instead, PathoMatch employs a **Hybrid Architecture**: It uses a pure, unconstrained mathematical engine (using $O(mn)$ Smith-Waterman arrays and MM/PBSA thermodynamics) to guarantee 100% deterministic DNA matching, and then feeds those proven facts into an LLM via Retrieval-Augmented Generation (RAG) to translate the math into clinical guidelines.
 
