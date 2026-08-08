@@ -31,6 +31,8 @@ To build clinical trust, the UI integrates **PDBe Molstar** (the industry-standa
 - **Found In Translation (FIT):** If veterinary guidelines for a specific species (e.g., Feline) are missing, the system automatically falls back to Human clinical data while clearly warning the physician.
 - **LLM-as-a-Judge:** A secondary LLM agent continuously audits the primary generative output, verifying that it never hallucinates dosages that contradict the retrieved documents.
 
+
+---
 ## Documentation Overview
 
 1. 🚀 **[Deployment & Testing Guide](docs/DEPLOYMENT_GUIDE.md):** The absolute master guide on how to install requirements and launch the platform on new hardware.
