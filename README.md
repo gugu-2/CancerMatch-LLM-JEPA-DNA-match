@@ -1,4 +1,4 @@
-# PathoMatch Pro: A Hybrid Mathematical & AI Framework for Genomic Intelligence
+# PathoMatch Pro: A Hybrid Mathematical & AI Framework for Genomic Intelligence(Pro)
 
 ![PathoMatch Banner](https://img.shields.io/badge/Status-Beta_Ready-success?style=for-the-badge)
 ![Math Engine](https://img.shields.io/badge/Engine-Deterministic_Math-red?style=for-the-badge)
